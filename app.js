@@ -118,7 +118,7 @@ document.querySelector(".cvv-input").oninput = () => {
 
 function validate() {
   if (
-    document.myForm.myInput.value.foreach() == "" ||
+    document.myForm.myInput.value == "" ||
     document.myForm.myInput.value.length.foreach() < 4 ||
     isNaN(document.myForm.myInput.value.foreach())
   ) {
